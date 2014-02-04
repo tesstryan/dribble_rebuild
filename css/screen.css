@@ -1,0 +1,120 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+body {
+  background: lightgray;
+  font-family: helvetica;
+  color: gray;
+}
+
+header {
+  background-color: black;
+  width: 100%;
+  height: 50px;
+  top: 0;
+  color: white;
+}
+header li {
+  padding-top: 18px;
+  padding-left: 30px;
+}
+
+ul {
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.main_box {
+  float: left;
+  margin: 10px;
+  max-width: 20%;
+}
+.main_box .author_box li {
+  display: inline-block;
+  vertical-align: top;
+}
+.main_box .author_box li #avatar {
+  padding-top: 5px;
+  border-radius: 40px;
+}
+.main_box .author_box li p {
+  padding-top: 13px;
+  color: purple;
+  font-size: 15px;
+}
+
+.image_box {
+  background-color: white;
+  padding: 5px 5px 10px 5px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px grey;
+}
+.image_box img {
+  max-width: 100%;
+}
+.image_box #eye, .image_box span {
+  float: right;
+  margin-right: 5px;
+}
+.image_box .image_footer img {
+  max-width: 10%;
+  margin-top: 13px;
+  font-size: 9px;
+}
+.image_box .image_footer span {
+  margin-top: 15px;
+}
