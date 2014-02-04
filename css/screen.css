@@ -88,18 +88,17 @@ ul {
   vertical-align: top;
 }
 .main_box .author_box li #avatar {
-  padding-top: 5px;
   border-radius: 40px;
 }
 .main_box .author_box li p {
-  padding-top: 13px;
+  padding-top: 9px;
   color: purple;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .image_box {
   background-color: white;
-  padding: 5px 5px 10px 5px;
+  padding: 7px 7px 12px 7px;
   border-radius: 5px;
   box-shadow: 1px 1px 1px grey;
 }
